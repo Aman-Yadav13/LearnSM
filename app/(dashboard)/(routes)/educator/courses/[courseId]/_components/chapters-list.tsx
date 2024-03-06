@@ -94,15 +94,28 @@ export const ChaptersList = ({
                     </div>
                     {chapter.title}
                     <div className="ml-auto pr-2 flex items-center gap-x-2">
-                      {chapter.isFree && <Badge>Free</Badge>}
-                      <Badge
+                      <div
                         className={cn(
-                          "bg-slate-500",
+                          "rounded-full px-2 py-1 w-fit invisible opacity-0",
+                          chapter.isFree &&
+                            chapter.isPublished &&
+                            "bg-emerald-600 opacity-100 visible"
+                        )}
+                      >
+                        <p className="text-xs text-white">
+                          {chapter.isFree && chapter.isPublished && "Free"}
+                        </p>
+                      </div>
+                      <div
+                        className={cn(
+                          "rounded-full px-2 py-1 w-fit bg-slate-500",
                           chapter.isPublished && "bg-sky-700"
                         )}
                       >
-                        {chapter.isPublished ? "Published" : "Draft"}
-                      </Badge>
+                        <p className="text-xs text-white">
+                          {chapter.isPublished ? "Published" : "Draft"}
+                        </p>
+                      </div>
                       <Pencil
                         onClick={() => onEdit(chapter.id)}
                         className="h-4 w-4 cursor-pointer hover:opacity-75 transition"
