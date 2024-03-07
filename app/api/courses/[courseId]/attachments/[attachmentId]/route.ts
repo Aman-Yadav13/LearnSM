@@ -1,4 +1,5 @@
 import { db } from "@/lib/db";
+import { isEducator } from "@/lib/educator";
 import { auth } from "@clerk/nextjs";
 import { NextResponse } from "next/server";
 
@@ -10,7 +11,7 @@ export async function DELETE(
     const { userId } = auth();
     const { courseId, attachmentId } = params;
 
-    if (!userId) {
+    if (!userId || isEducator(userId || "")) {
       return new NextResponse("Unauthorized", { status: 401 });
     }
     const courseOwner = await db.course.findUnique({
