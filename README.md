@@ -1,6 +1,6 @@
   <!-- Project Banner -->
 <p align="center">
-  <img src="https://github.com/Aman-Yadav13/LearnSM/blob/main/public/logo.svg" alt="LearnSM Banner"> LearnSM
+  <img src="https://github.com/Aman-Yadav13/LearnSM/blob/main/public/logo.svg" alt="LearnSM Banner">
 </p>
 
 
