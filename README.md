@@ -17,11 +17,11 @@ To get started with LearnSM, follow these simple steps:
    ```bash
    git clone https://github.com/your-username/learnsm.git
    cd learnsm
-Install Dependencies:
 
-bash
-Copy code
-npm install
+2. **Install Dependencies:** 
+
+   ```powershell
+   npm install
 Set up Environment Variables:
 
 Create a .env file in the root directory and add your environment variables.
