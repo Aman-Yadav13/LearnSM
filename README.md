@@ -1,8 +1,9 @@
   <!-- Project Banner -->
 <div style="display: flex; align-items: center; gap: 0.5rem;">
-    <img height="30" width="30" alt="logo" src="https://github.com/Aman-Yadav13/LearnSM/blob/main/public/logo.svg" style="vertical-align: middle;" />
+    <img height="30" width="30" alt="logo" src="https://raw.githubusercontent.com/Aman-Yadav13/LearnSM/main/public/logo.svg" style="vertical-align: middle;" />
     <p style="font-size: 1.25rem; color: #10B981; font-weight: 600;">Learn<span style="font-weight: 400;">SM</span></p>
 </div>
+
 
 
 <!-- Project Description -->
