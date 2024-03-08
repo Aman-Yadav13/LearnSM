@@ -1,7 +1,10 @@
   <!-- Project Banner -->
-<p align="center">
-  <img src="https://your-domain.com/learnsm-banner.png" alt="LearnSM Banner">
-</p>
+<div href="/" style="display: flex; flex-direction: row; align-items: center; gap: 0.5rem;">
+    <img height="30" width="30" alt="logo" src="https://github.com/Aman-Yadav13/LearnSM/blob/main/public/logo.svg" />
+    <p style="font-size: 1.25rem; color: #10B981;">
+        Learn<span style="font-weight: 600;">SM</span>
+    </p>
+</div>
 
 <!-- Project Description -->
 # LearnSM
