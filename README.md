@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- Project Banner -->
+<p align="center">
+  <img src="https://your-domain.com/learnsm-banner.png" alt="LearnSM Banner">
+</p>
+
+<!-- Project Description -->
+# LearnSM
+
+Welcome to LearnSM, a cutting-edge learning management platform built with Next.js! This project serves as a versatile solution for educators and learners, integrating advanced technologies to deliver a seamless learning experience.
 
 ## Getting Started
 
-First, run the development server:
+To get started with LearnSM, follow these simple steps:
 
-```bash
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/your-username/learnsm.git
+   cd learnsm
+Install Dependencies:
+
+bash
+Copy code
+npm install
+Set up Environment Variables:
+
+Create a .env file in the root directory and add your environment variables.
+
+Run the Development Server:
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Explore LearnSM:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser and start exploring LearnSM!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Features
+Next.js 13 with App Router: Utilizes the latest version of Next.js for efficient routing and rendering.
+MongoDB with Prisma: Seamlessly integrates MongoDB with Prisma for data modeling and management.
+Stripe Integration: Enables secure payment processing and subscription management through Stripe.
+Mux: Provides advanced video streaming and hosting capabilities powered by Mux.
+Clerk Authentication: Offers robust user authentication and authorization via Clerk.
+Learn More
+To learn more about LearnSM and its features, check out the following resources:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Documentation
+Demo
+Deploy on Vercel
+Deploy your LearnSM app effortlessly using the Vercel Platform. Simply click the button below to get started:
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Contributing
+We welcome contributions from the community! If you have any feedback, suggestions, or bug reports, feel free to open an issue or submit a pull request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+License
+This project is licensed under the MIT License.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Built with ❤️ by Your Name
 
-## Deploy on Vercel
+typescript
+Copy code
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Make sure to replace placeholders like `your-domain.com`, `your-demo-domain.com`, `your
